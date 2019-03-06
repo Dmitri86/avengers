@@ -20,7 +20,7 @@ from django.conf.urls import url, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     url(r'^thor/', include('thor.urls')),
-    url(r'^', include('avengers.urls')),
+    url(r'^', include('avg.urls')),
     url(r'^iron_man', include('iron_man.urls')),
     url(r'^captain_america', include('captain_america.urls')),
     url(r'^hulk', include('hulk.urls')),
